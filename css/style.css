@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200&display=swap');
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(/assets/natalie-toombs-Zwl3zlN4qtw-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 0;
+  background-position: center center;
+  font-family: 'Poppins', sans-serif;
+
+}
+h1{
+  font-size: 4rem;
+  margin-top: 1rem;
+  font-weight: normal;
+}
+.countdown-container{
+  display: flex;
+}
+.big-text{
+  font-weight: bold;
+  /* color: #fff; */
+  font-size: 5rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+.countdown-el{
+  text-align: center;
+}
+.countdown-el span{
+  font-size: 1.3rem;
+}
