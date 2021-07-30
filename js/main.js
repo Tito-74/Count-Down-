@@ -18,10 +18,13 @@ function countdown(){
 
   // console.log(days,hours,minutes,seconds);
    daysE1.innerHTML= days;
-   hoursE1.innerHTML= hours;
-   minsE1.innerHTML= minutes;
-   secondsE1.innerHTML= seconds;
+   hoursE1.innerHTML= formaTime(hours);
+   minsE1.innerHTML= formaTime(minutes);
+   secondsE1.innerHTML= formaTime(seconds);
 
 };
+function formaTime(time){
+  return time < 10 ? `0${time}` : time;
+}
 countdown()
 setInterval(countdown,1000)
